@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MM</title>
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- animate -->
-	<link rel="stylesheet" href="assets/css/animate.min.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- animate -->
+	<link rel="stylesheet" href="assets/css/animate.min.css" />
 	<!-- reset	 -->
 	<link rel="stylesheet/less" href="assets/css/reset.less" />
 	<!-- common -->
-  	<link rel="stylesheet/less" href="assets/css/common.less" />
+  <link rel="stylesheet/less" href="assets/css/common.less" />
 	<!-- family-->
 	<link rel="stylesheet/less" href="assets/css/about.less" />
 </head>
@@ -219,7 +219,7 @@
 <div class="contact">
   <div class="content">
     <div class="container">
-      <div class="left">
+      <div class="left wow fadeInLeft" data-wow-delay="200ms">
         <div class="title">
           <div class="big wow fadeInUp" data-lang="contact01">联系方式</div>
         </div>
@@ -235,7 +235,7 @@
         </div>
       </div>
       
-      <div class="right">
+      <div class="right wow fadeInRight" data-wow-delay="200ms">
          <!-- 邮件 -->
         <div class="box2">
           <img src="./assets/images/contact02.png">
@@ -298,3 +298,8 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script src="assets/js/wow.min.repeat.js"></script> 
+
+<script>
+  //wow.js
+  new WOW().init();
+</script>
